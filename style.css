@@ -1,10 +1,12 @@
 body{
     margin: 0;
 }
+section{
+    height: 450px;
+}
 .header-section
 {
     border: 1px solid  gray;
-    height: 450px;
     background-image: url(images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -28,4 +30,37 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.donation-amount-section{
+    margin-top: 50px;
+}
+.donation-amount{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+.donation-amount h1{
+    font-size: 35px;
+}
+.donation-amount p{
+    font-size: 20px;
+}
+.five-boxes{
+    margin-left: 90px;
+    border-radius: -5%;
+}
+.box{
+    width: 90px;
+    background-color: rgb(249, 247, 247);
+    float: left;
+    margin-left: 6px;
+    color: gray;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#coloring-box{
+    color: rgb(235, 59, 28);
+    background-color: rgb(245, 221, 227);
+    border: 2px solid rgb(229, 109, 109);
 }
