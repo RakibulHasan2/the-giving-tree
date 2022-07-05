@@ -1,23 +1,25 @@
 body{
     margin: 0;
 }
-.header-part
+.header-section
 {
-    height: 500px;
-    background-color: black;
-    border: 1px solid red;
+    border: 1px solid  gray;
+    height: 450px;
+    background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .header-text{
-    border: 1px solid blue;
     width: 45%;
+    margin: 70px auto;
     color: white;
     text-align: center;  
     padding: 30px 40px;
 }
 .header-text h1{
     font-weight: 600;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 40px;
+    line-height: 40px;
 }
 .link-button{
     text-decoration: none;
